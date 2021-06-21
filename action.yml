@@ -1,6 +1,6 @@
-name: 'Jekyll Deploy SSH'
+name: 'Jekyll Build'
 description: >
-  编译 Jekyll 成 html 文件并推送到 NGINX 服务器
+  编译 Jekyll 成 html 文件，可以配合 SFTP action 上传到相应的 NGINX 主机上面
 inputs:
   provider:
     description: 'The deploy provider'
