@@ -1,13 +1,8 @@
 #!/bin/sh
 set -e
 
-echo "🛎 Starting the Jekyll Action"
-
-pwd
-ls
+echo "🛎 Starting the Jekyll Build Action"
 
 bundle install
 
 bundle exec jekyll build
-
-ls -a -l
