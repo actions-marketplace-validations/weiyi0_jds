@@ -9,3 +9,5 @@ ls
 bundle install
 
 bundle exec jekyll build
+
+ls -a -l
