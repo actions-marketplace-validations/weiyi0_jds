@@ -37,4 +37,4 @@ runs:
   image: 'Dockerfile'
 branding:
   icon: 'command'
-  color: 'red'
+  color: 'green'
